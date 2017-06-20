@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="premApp">
   <head>
     <meta charset="utf-8">
     <title></title>
+    <script src="../angular.js"></script>
+    <script src="app.js"></script>
   </head>
   <body>
-
+    <h1>lecture4, et lecture 5 c'est cool</h1>
+    <div ng-controller="premController">
+      <p>mon nom {{name}}</p>
+      <p>mon age {{age}}</p>
+      <p>{{ditBonjour()}}</p>
+      <p><input type="text" ng-model="name"></p>
+    </div>
   </body>
 </html>
