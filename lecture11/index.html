@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="MsgApp">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="../angular.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    </script>
+  </head>
+  <body>
+    <h1>Expression et litteral</h1>
+    <div ng-controller="MsgController">
+      {{nom}} "<u>et un texte separateur. </u>"
+      {{ecritMessage()}}
+
+      <div>
+        et maintenant en image <br>
+         <img ng-src="images/{{image}}.png">
+
+      </div>
+      <div>
+        <button ng-click="changeImage()">afficher etoile</button>
+      </div>
+
+      <div>
+        <button ng-click="ToggleChangeImage()">ToggleChangeImage</button>
+      </div>
+    </div>
+  </body>
+</html>
