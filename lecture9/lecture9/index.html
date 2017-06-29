@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="DIApp">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="../angular.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    </script>
+  </head>
+  <body>
+    <h1>dependency injection, ca chauffe</h1>
+    <p>perdre le focus et grandir</p>
+    <div ng-controller="DIController">
+      <input type="text" ng-model="nom" ng-blur="upper();">
+    </div>
+    <div>
+      {{maj}}
+    </div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="../angular.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body ng-app="lect6">
+    <h1>converti texte Somme asci</h1>
+    <div ng-controller="controlleLect6">
+      <div>
+        saisir texte <input type="text" ng-model="saisie" >
+      </div>
+      <div>
+        Somme des caracteres : {{calcul()}}
+      </div>
+    </div>
+
+    <h4>et maintenant quelque chose de completement different !! en mode keyUp</h4>
+    <div ng-controller="calculTexteAsciiKeyUp">
+        <div>
+          saisir texte a convertir
+          <input type="text" ng-model="saisieKeyUp" ng-keyup="afficheResultat();" >
+        </div>
+        <div>
+          le resultat est : {{afficheResultat()}}
+        </div>
+    </div>
+
+  </body>
+</html>
