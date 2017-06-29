@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="0.48.5 r10040"
+   version="1.1"
+   id="svg2"
+   height="297mm"
+   width="210mm"
+   sodipodi:docname="angular-Basic-aInsererdansGlobalTuto.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-752.02663"
+     inkscape:cy="-829.20135"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="748"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="DotL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotL"
+       style="overflow:visible">
+      <path
+         id="path4083"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(7.4, 1)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lstart"
+       style="overflow:visible">
+      <path
+         id="path4040"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path4022"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;">
+      <path
+         id="path4043"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path4025"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2LstartJ"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2LstartJ"
+       style="overflow:visible">
+      <path
+         id="path6500"
+         style="stroke-linejoin:round;stroke:#fc0000;stroke-width:0.62500000;fill:#fc0000;fill-rule:evenodd"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2LendF"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2LendF"
+       style="overflow:visible;">
+      <path
+         id="path6503"
+         style="stroke-linejoin:round;stroke:#fc0000;stroke-width:0.62500000;fill:#fc0000;fill-rule:evenodd"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotLA"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotLA"
+       style="overflow:visible">
+      <path
+         id="path13569"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="stroke:#fc0000;stroke-width:1.0pt;fill:#fc0000;fill-rule:evenodd"
+         transform="scale(0.8) translate(7.4, 1)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotLY"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotLY"
+       style="overflow:visible">
+      <path
+         id="path13572"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="stroke:#fc0000;stroke-width:1.0pt;fill:#fc0000;fill-rule:evenodd"
+         transform="scale(0.8) translate(7.4, 1)" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path13687"
+       d="m -1548.5714,1792.3622 c 397.1428,-2.8572 605.71426,-451.4286 1468.571404,-300"
+       style="opacity:0.8;fill:none;stroke:#fc0000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotLA);marker-mid:none;marker-end:url(#DotLY)" />
+    <path
+       style="opacity:0.8;fill:none;stroke:#fc0000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotLA);marker-mid:none;marker-end:url(#DotLY)"
+       d="m -1422.8571,1843.7908 c 397.1428,-2.8572 422.85711,-265.7143 1468.57139,-300"
+       id="path13689"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path13691"
+       d="m -1225.7142,1906.6479 c 397.14276,-2.8572 731.4285,-137.1429 939.99992,-257.1429"
+       style="opacity:0.8;fill:none;stroke:#fc0000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotLA);marker-mid:none;marker-end:url(#DotLY)" />
+    <path
+       style="fill:none;stroke:#fc0000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotLA);marker-mid:none;marker-end:url(#DotLY);opacity:0.8"
+       d="m -1748.5714,1743.7908 c 397.1428,-2.8572 1265.71426,-942.85719 1814.285685,-342.8571"
+       id="path3248"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3021"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-885.71429,594.28571)"><flowRegion
+         id="flowRegion3023"><rect
+           id="rect3025"
+           width="1377.1428"
+           height="1331.4286"
+           x="-1308.5714"
+           y="626.64789" /></flowRegion><flowPara
+         id="flowPara3027"
+         style="font-weight:bold;-inkscape-font-specification:Sans Bold">pageWeb.html</flowPara><flowPara
+         id="flowPara3242" /><flowPara
+         id="flowPara3240">&lt;!DOCTYPE html&gt;</flowPara><flowPara
+         id="flowPara3029">&lt;html&gt;</flowPara><flowPara
+         id="flowPara3031">  &lt;head&gt;</flowPara><flowPara
+         id="flowPara3033">    &lt;meta charset=&quot;utf-8&quot;&gt;</flowPara><flowPara
+         id="flowPara3035">    &lt;title&gt;&lt;/title&gt;</flowPara><flowPara
+         id="flowPara3037">    &lt;script src=&quot;../angular.js&quot;&gt;&lt;/script&gt;</flowPara><flowPara
+         id="flowPara3039">    &lt;script src=&quot;app.js&quot;&gt;&lt;/script&gt;</flowPara><flowPara
+         id="flowPara3041">  &lt;/head&gt;</flowPara><flowPara
+         id="flowPara3043">  &lt;body ng-app=&quot;nomAppli&quot;&gt;</flowPara><flowPara
+         id="flowPara3045">    &lt;div ng-controller=&quot;nomDuController&quot;&gt;</flowPara><flowPara
+         id="flowPara3047">       &lt;p&gt;voici une variable : {{uneVariable}}&lt;/p&gt;</flowPara><flowPara
+         id="flowPara3049">       &lt;p&gt;et voici un retour de fonction : {{uneFonction()}}&lt;/p&gt;</flowPara><flowPara
+         id="flowPara3051">    &lt;/div&gt;</flowPara><flowPara
+         id="flowPara3053">  &lt;/body&gt;</flowPara><flowPara
+         id="flowPara3055">&lt;/html&gt;</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3057"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3059"><rect
+           id="rect3061"
+           width="1437.1428"
+           height="748.57141"
+           x="-1191.4286"
+           y="1683.7908" /></flowRegion><flowPara
+         id="flowPara3063" /></flowRoot>    <flowRoot
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot3065"
+       xml:space="preserve"
+       transform="translate(697.14285,594.28571)"><flowRegion
+         id="flowRegion3067"><rect
+           y="626.64789"
+           x="-1308.5714"
+           height="1331.4286"
+           width="1377.1428"
+           id="rect3069" /></flowRegion><flowPara
+         id="flowPara3099"
+         style="font-weight:bold;-inkscape-font-specification:Sans Bold">app.js</flowPara><flowPara
+         id="flowPara3244" /><flowPara
+         id="flowPara3246">(function(){</flowPara><flowPara
+         id="flowPara3220">  var app = angular.module(&quot;nomAppli&quot;, []);</flowPara><flowPara
+         id="flowPara3222" /><flowPara
+         id="flowPara3224">  app.controller(&quot;nomDuController&quot;, function($scope){</flowPara><flowPara
+         id="flowPara3226">    $scope.uneVariable = &quot;une variable&quot;;</flowPara><flowPara
+         id="flowPara3228" /><flowPara
+         id="flowPara3230">    $scope.uneFonction = function(){</flowPara><flowPara
+         id="flowPara3232">      return &quot;ceci est un retour de fonction&quot;;</flowPara><flowPara
+         id="flowPara3234">    }</flowPara><flowPara
+         id="flowPara3236">  });</flowPara><flowPara
+         id="flowPara3238">})();</flowPara></flowRoot>  </g>
+</svg>

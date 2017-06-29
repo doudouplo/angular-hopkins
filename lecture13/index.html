@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="../angular.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body ng-app="lect13">
+    <div ng-controller="nomDuController">
+       <p>voici une variable : {{uneVariable}}</p>
+       <p>et voici un retour de fonction : {{uneFonction()}}</p>
+       <p>un texte filtré en html : {{ "texte majuscule" | uppercase}} </p>
+    </div>
+  </body>
+</html>
