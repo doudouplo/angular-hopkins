@@ -3,9 +3,12 @@
   angular.module("MsgApp",[]).
   controller("MsgController",MsgController);
 
-  MsgController.$inject =["$scope"];
-  function MsgController ($scope) {
+  MsgController.$inject =["$scope","$filter"];
+  function MsgController ($scope,$filter) {
+    var encoreUneVariable = "encoreUneVariable";
+    $scope.encoreUneVariable = $filter("uppercase")(encoreUneVariable);
     $scope.nom="toto";
+    $scope.coutDeLaVie = 123.12;
     $scope.ecritMessage = function(){
       return "et voici un bo message, is nit";
     }

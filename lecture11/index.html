@@ -10,7 +10,7 @@
   <body>
     <h1>Expression et litteral</h1>
     <div ng-controller="MsgController">
-      {{nom}} "<u>et un texte separateur. </u>"
+      {{nom| uppercase}} "<u>et un texte separateur. </u>"
       {{ecritMessage()}}
 
       <div>
@@ -19,11 +19,19 @@
 
       </div>
       <div>
-        <button ng-click="changeImage()">afficher etoile </button>
+        <button ng-click="changeImage()">afficher etoile</button>
       </div>
 
       <div>
         <button ng-click="ToggleChangeImage()">ToggleChangeImage</button>
+      </div>
+
+      <div ><br>
+        et une variable filtré en js {{encoreUneVariable}}
+      </div>
+
+      <div ><br>
+        la vie coute chere {{coutDeLaVie*3 | currency : "€" : 2 }}
       </div>
     </div>
   </body>
