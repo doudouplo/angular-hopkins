@@ -137,9 +137,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="-9247.5982"
-     inkscape:cy="-4463.0194"
+     inkscape:zoom="0.35"
+     inkscape:cx="-15567.835"
+     inkscape:cy="-6417.1625"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -156,7 +156,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -990,7 +990,7 @@
          id="flowPara4568">ou html</flowPara><flowPara
          style="font-weight:normal;-inkscape-font-specification:Sans Bold"
          id="flowPara4570">{{variable | uppercase}}</flowPara></flowRoot>    <flowRoot
-       transform="translate(-11525.699,1609.7224)"
+       transform="translate(-11622.674,1860.2402)"
        xml:space="preserve"
        id="flowRoot16434"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
@@ -1027,7 +1027,7 @@
          style="font-size:56px;font-weight:bold;-inkscape-font-specification:Sans Bold"
          id="flowPara4643">Web ide</flowPara><flowPara
          id="flowPara4647"
-         style="font-weight:bold;-inkscape-font-specification:Sans Bold"></flowPara><flowPara
+         style="font-weight:bold;-inkscape-font-specification:Sans Bold" /><flowPara
          style="font-weight:bold;-inkscape-font-specification:Sans Bold"
          id="flowPara4715">Plunker</flowPara><flowPara
          style="font-weight:normal;-inkscape-font-specification:Sans"
@@ -1111,5 +1111,83 @@
          id="flowPara3232">      return &quot;ceci est un retour de fonction&quot;;</flowPara><flowPara
          id="flowPara3234">    }</flowPara><flowPara
          id="flowPara3236">  });</flowPara><flowPara
-         id="flowPara3238">})();</flowPara></flowRoot>  </g>
+         id="flowPara3238">})();</flowPara></flowRoot>    <flowRoot
+       transform="translate(-6802.7262,4070.8099)"
+       xml:space="preserve"
+       id="flowRoot4552-3"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+         id="flowRegion4554-6"><rect
+           id="rect4556-7"
+           width="1757.334"
+           height="1067.2017"
+           x="-9120"
+           y="2549.5051" /></flowRegion><flowPara
+         id="flowPara4558-5"
+         style="font-size:56px;font-weight:bold;-inkscape-font-specification:Sans Bold">Module</flowPara><flowPara
+         style="font-weight:bold;-inkscape-font-specification:Sans Bold"
+         id="flowPara4562-5" /><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara4566-2">angular.module('app', [])</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3637">.controller('ctrl', ctrl)</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara4570-2">.filter('custom', CustomerFilterFactory);</flowPara></flowRoot>    <flowRoot
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot3657"
+       xml:space="preserve"
+       transform="translate(-6779.8691,5139.3813)"><flowRegion
+         id="flowRegion3659"><rect
+           y="2549.5051"
+           x="-9120"
+           height="1067.2017"
+           width="1757.334"
+           id="rect3661" /></flowRegion><flowPara
+         style="font-size:56px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+         id="flowPara3663">Injection <flowSpan
+   style="font-style:italic;-inkscape-font-specification:Sans Bold Italic"
+   id="flowSpan3673">name</flowSpan>Filter</flowPara><flowPara
+         id="flowPara3665"
+         style="font-weight:bold;-inkscape-font-specification:Sans Bold" /><flowPara
+         id="flowPara3671"
+         style="font-weight:normal;-inkscape-font-specification:Sans">ctrl.$inject = ['$scope', 'customFilter'];</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3680"></flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3682">function ctrl($scope, customFilter){</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3684">   var msg = &quot;some input&quot;;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3686">   customFilter(msg);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3688">}; </flowPara></flowRoot>    <flowRoot
+       transform="translate(-6791.2977,4547.9527)"
+       xml:space="preserve"
+       id="flowRoot3690"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+         id="flowRegion3692"><rect
+           id="rect3694"
+           width="1757.334"
+           height="1067.2017"
+           x="-9120"
+           y="2549.5051" /></flowRegion><flowPara
+         id="flowPara3696"
+         style="font-size:56px;font-weight:bold;-inkscape-font-specification:Sans Bold">Filter factory function</flowPara><flowPara
+         id="flowPara3706"
+         style="font-weight:normal;-inkscape-font-specification:Sans"></flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3742">function CustomFilterFactory(){</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3723">   return function(input){</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3730">      //change input</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3732">      return changedInput;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3734">   };</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3736">}</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3721" /><flowPara
+         id="flowPara3712"
+         style="font-weight:normal;-inkscape-font-specification:Sans" /></flowRoot>  </g>
 </svg>

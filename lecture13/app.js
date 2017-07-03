@@ -12,7 +12,7 @@
 
     var texte = "un texte en majuscule";
     var filtre = $filter("uppercase")(texte);
-    texte = "un autre texte"
-    $scope.texteMaj = filtre;
-  });
+   $scope.texteMaj = filtre;
+
+ });
 })();
