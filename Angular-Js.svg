@@ -137,9 +137,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748737"
-     inkscape:cx="-22075.252"
-     inkscape:cy="-9154.2376"
+     inkscape:zoom="0.35"
+     inkscape:cx="-22160.876"
+     inkscape:cy="-11873.313"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1401,12 +1401,12 @@
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot8799"
        xml:space="preserve"
-       transform="translate(-13792.981,6942.9665)"><flowRegion
+       transform="translate(-13611.154,7080.3472)"><flowRegion
          id="flowRegion8801"><rect
            y="2549.5051"
            x="-9120"
-           height="6037.1523"
-           width="1539.1411"
+           height="1980.0093"
+           width="1424.8553"
            id="rect8803" /></flowRegion><flowPara
          style="font-size:56px;font-weight:bold;-inkscape-font-specification:Sans Bold"
          id="flowPara8805">Fonctions</flowPara><flowPara
@@ -1487,5 +1487,81 @@
          style="font-weight:normal;-inkscape-font-specification:Sans"
          id="flowPara10198">console.log(resultat);</flowPara><flowPara
          style="font-weight:normal;-inkscape-font-specification:Sans"
-         id="flowPara10200" /></flowRoot>  </g>
+         id="flowPara10200" /></flowRoot>    <flowRoot
+       transform="translate(-13611.154,9225.9112)"
+       xml:space="preserve"
+       id="flowRoot10202"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+         id="flowRegion10204"><rect
+           id="rect10206"
+           width="1493.427"
+           height="2197.1521"
+           x="-9120"
+           y="2549.5051" /></flowRegion><flowPara
+         id="flowPara10208"
+         style="font-size:56px;font-weight:bold;-inkscape-font-specification:Sans Bold">Passage de valeur par valeur et par réference</flowPara><flowPara
+         id="flowPara10210"
+         style="font-weight:normal;-inkscape-font-specification:Sans" /><flowPara
+         id="flowPara10252"
+         style="font-weight:bold;-inkscape-font-specification:Sans Bold">//passage par valeur</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10518">var a = 7;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10520">var b = a;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10522">console.log(a + &quot; &quot; + b);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10524">var b=12;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10526">console.log(a + &quot; &quot; + b);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10528" /><flowPara
+         style="font-weight:bold;-inkscape-font-specification:Sans Bold"
+         id="flowPara10530">//passage par reference</flowPara><flowPara
+         style="font-weight:bold;-inkscape-font-specification:Sans Bold"
+         id="flowPara10532">// c et d pointent vers la meme case memoire</flowPara><flowPara
+         id="flowPara10286"
+         style="font-weight:normal;-inkscape-font-specification:Sans">var c = {x : 7};</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10728">var d = c;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10730">console.log(c);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10732">console.log(d);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10734">d.x=32;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10736">console.log(&quot;after d.x updated &quot;);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10738">console.log(c);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10740">console.log(d);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10742" /><flowPara
+         style="font-weight:bold;-inkscape-font-specification:Sans Bold"
+         id="flowPara10744">//passage par valeur dans une fonction</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10746">function changeValeur(objValue){</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10748">  console.log(&quot;entre changeValeur :&quot;);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10750">  console.log(objValue);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10752">  objValue.x =21;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10754">  console.log(&quot;sort changeValeur :&quot;);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10756">  console.log(objValue);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10758">};</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10760">value = {x : 12};</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10762">changeValeur(value);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10764">console.log(&quot;apres changeValeur&quot;);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10766">console.log(value);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara10768" /></flowRoot>  </g>
 </svg>
