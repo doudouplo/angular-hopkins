@@ -137,9 +137,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-15567.835"
-     inkscape:cy="-6417.1625"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="-20199.064"
+     inkscape:cy="-8121.5638"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1151,7 +1151,7 @@
          id="flowPara3671"
          style="font-weight:normal;-inkscape-font-specification:Sans">ctrl.$inject = ['$scope', 'customFilter'];</flowPara><flowPara
          style="font-weight:normal;-inkscape-font-specification:Sans"
-         id="flowPara3680"></flowPara><flowPara
+         id="flowPara3680" /><flowPara
          style="font-weight:normal;-inkscape-font-specification:Sans"
          id="flowPara3682">function ctrl($scope, customFilter){</flowPara><flowPara
          style="font-weight:normal;-inkscape-font-specification:Sans"
@@ -1173,7 +1173,7 @@
          id="flowPara3696"
          style="font-size:56px;font-weight:bold;-inkscape-font-specification:Sans Bold">Filter factory function</flowPara><flowPara
          id="flowPara3706"
-         style="font-weight:normal;-inkscape-font-specification:Sans"></flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans" /><flowPara
          style="font-weight:normal;-inkscape-font-specification:Sans"
          id="flowPara3742">function CustomFilterFactory(){</flowPara><flowPara
          style="font-weight:normal;-inkscape-font-specification:Sans"
@@ -1189,5 +1189,129 @@
          style="font-weight:normal;-inkscape-font-specification:Sans"
          id="flowPara3721" /><flowPara
          id="flowPara3712"
-         style="font-weight:normal;-inkscape-font-specification:Sans" /></flowRoot>  </g>
+         style="font-weight:normal;-inkscape-font-specification:Sans" /></flowRoot>    <flowRoot
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot3646"
+       xml:space="preserve"
+       transform="translate(-11764.595,4070.8099)"><flowRegion
+         id="flowRegion3648"><rect
+           y="2549.5051"
+           x="-9120"
+           height="3786.5325"
+           width="1571.4656"
+           id="rect3650" /></flowRegion><flowPara
+         style="font-size:56px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+         id="flowPara3652">Rappel JavaScript</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3664" /><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3715" /><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3666">//statement false----------------------</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3668">if (!false &amp;&amp; !NaN &amp;&amp; !undefined &amp;&amp; !null &amp;&amp; !0 &amp;&amp; !&quot;&quot;){</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3670">  console.log(&quot;no false&quot;);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3672">}</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3687" /><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3689">// Regular ou Strict egalité : == ou === ---------------------------</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3691">x=5;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3693">console.log(x);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3695">if (x === 5){</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3697">  console.log(&quot;x ===5&quot;);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3699">}</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3701" /><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3703" /><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3705">x=&quot;5&quot;;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3707">console.log(x);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3709">if (x === &quot;5&quot;){</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3711">  console.log(&quot;x ==='5'&quot;);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3713">}</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3717" /><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3719">//objet --------------------------------------------</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3722">var Personne = {</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3724">  nom : &quot;toto&quot;,</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3726">  prenom : &quot;dupont&quot;,</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3728">  adresse :{</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3731">    rue : &quot;des martyres&quot;,</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3733">    no : 125,</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3735">    ville : &quot;trucville&quot;,</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3737">  },</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3739">  chomeur : true,</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3741">};</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3743">console.log(Personne);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3745">console.log(Personne.adresse.ville);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3747">console.log(Personne.chomeur);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3749" /><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3751">Boolean(null); //affiche si true ou false</flowPara><flowPara
+         id="flowPara3660"
+         style="font-weight:normal;-inkscape-font-specification:Sans" /><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3759">//for loop ---------------------------------------</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3770">var somme = 0;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3772">for (var i = 0; i &lt;10 ; i++){</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3774">  console.log(&quot;i = &quot; + i);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3776">  somme += i;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3778">}</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3781">console.log(&quot;somme de 0 à 9 = &quot; + somme);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3783" /><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3785">//Default value-----------------------------------</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3787">function laFctAvecDefaultValueShortCode(param){</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3789">  param = param || &quot;valeur par default ;)&quot;;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3791">  console.log(&quot;param fct default short code = &quot; + param);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3793">}</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3795">laFctAvecDefaultValueShortCode();</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3797">laFctAvecDefaultValueShortCode(&quot;encore un autre truc&quot;);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3799" /><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3801">console.log( true || false);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara3805">console.log( false || &quot;qqchose&quot;);</flowPara></flowRoot>  </g>
 </svg>
