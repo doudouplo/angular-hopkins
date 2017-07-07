@@ -138,8 +138,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.24748737"
-     inkscape:cx="-21900.15"
-     inkscape:cy="-14024.32"
+     inkscape:cx="-21520.332"
+     inkscape:cy="-16723.585"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1641,5 +1641,111 @@
          style="font-weight:normal;-inkscape-font-specification:Sans"
          id="flowPara11427">salutation.saluer();</flowPara><flowPara
          style="font-weight:normal;-inkscape-font-specification:Sans"
-         id="flowPara11393" /></flowRoot>  </g>
+         id="flowPara11393" /></flowRoot>    <flowRoot
+       transform="translate(-13611.154,12964.879)"
+       xml:space="preserve"
+       id="flowRoot11431"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+         id="flowRegion11433"><rect
+           id="rect11435"
+           width="1832.838"
+           height="2888.0964"
+           x="-9120"
+           y="2549.5051" /></flowRegion><flowPara
+         id="flowPara11437"
+         style="font-size:56px;font-weight:bold;-inkscape-font-specification:Sans Bold">DOM manipulation</flowPara><flowPara
+         id="flowPara11439"
+         style="font-weight:normal;-inkscape-font-specification:Sans" /><flowPara
+         style="font-weight:bold;-inkscape-font-specification:Sans Bold"
+         id="flowPara11441">index.html</flowPara><flowPara
+         id="flowPara11459"
+         style="font-weight:normal;-inkscape-font-specification:Sans">&lt;!DOCTYPE html&gt;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11549">&lt;html&gt;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11551">  &lt;head&gt;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11553">    &lt;meta charset=&quot;utf-8&quot;&gt;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11555">    &lt;title&gt;&lt;/title&gt;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11557">    &lt;script src=&quot;script.js&quot;&gt;&lt;/script&gt;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11559">    &lt;script type=&quot;text/javascript&quot;&gt;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11561" /><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11563">    &lt;/script&gt;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11565">  &lt;/head&gt;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11567">  &lt;body&gt;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11569">    &lt;h1 id=&quot;titre&quot;&gt;DOM Manipulation&lt;/h1&gt;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11571" /><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11573">    &lt;p&gt;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11575">      dit bonjour</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11577">      &lt;input id=&quot;nom&quot; type=&quot;text&quot; value=&quot;toto&quot;&gt;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11579">      &lt;button onclick=&quot;cliquer();&quot;&gt;dit le&lt;/button&gt;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11581">      &lt;span style=&quot;font-size: .7em;&quot;&gt;essaye toto&lt;/span&gt;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11583">    &lt;/p&gt;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11585" /><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11587">    &lt;div id=&quot;contenu&quot;&gt;&lt;/div&gt;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11589" /><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11591">  &lt;/body&gt;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11593">&lt;/html&gt;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11595" /><flowPara
+         id="flowPara11461"
+         style="font-weight:normal;-inkscape-font-specification:Sans" /><flowPara
+         style="font-weight:bold;-inkscape-font-specification:Sans Bold"
+         id="flowPara11806">script.js</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11808">console.log(window.document); //window = global scope</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11810">console.log(document instanceof HTMLDocument);</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11812" /><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11814">if(document.readyState){ //si page fini de chargée</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11816">  var cliquer = function(){</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11818">    //recupere la valeur du champ de saisie</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11820">    var nom = window.document.getElementById(&quot;nom&quot;).value;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11822">    //affiche dans le div la valeur</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11824">    var message = &quot;&lt;h2&gt;bjr &quot; + nom + &quot;&lt;/h2&gt;&quot;;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11826">    window.document.getElementById(&quot;contenu&quot;).innerHTML = message;</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11828" /><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11830">    if (nom === &quot;toto&quot;){</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11832">      document.querySelector(&quot;#titre&quot;).textContent +=  &quot; et &quot; + nom + &quot; adore ça !&quot;; </flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11834">    }</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11836">  };</flowPara><flowPara
+         style="font-weight:normal;-inkscape-font-specification:Sans"
+         id="flowPara11838">}</flowPara><flowPara
+         style="font-weight:bold;-inkscape-font-specification:Sans Bold"
+         id="flowPara11840" /><flowPara
+         id="flowPara11503"
+         style="font-weight:normal;-inkscape-font-specification:Sans" /></flowRoot>  </g>
 </svg>

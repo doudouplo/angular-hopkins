@@ -16,6 +16,9 @@ fctEntreParenthese();
 
 //pour exposer en dehors des methodes et des noms
 //sans risque de collision dans l'espace des noms de variables
+//Immediately Invoked Function Expressions are usually used
+//to place code into its own execution context not to conflict
+//with the global scope.
 (function(window){
   console.log(window);
   var salutation={};
